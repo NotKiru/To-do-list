@@ -1,0 +1,66 @@
+form {
+    background-color: var(--surface-col);
+    padding: 10px;
+    border-radius: 10px;
+    width:30vw;
+    box-shadow: 0px 0px 10px 1px var(--border-col);
+}
+form > h1 {
+    margin: 30px 0px;
+}
+form > div{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px !important;
+}
+a {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+}
+p {
+    color: red !important;
+}
+form input {
+    background-color: var(--background-col) !important;
+    border: 1px solid var(--border-col) !important;
+}
+form input::placeholder {
+    color: var(--text-col) !important;
+}
+form input:active, form input:focus {
+    box-shadow: 0px 0px 2px 0.5px var(--border-col) !important;
+}
+form button[type="submit"] {
+    background-color: var(--background-col);
+    border-radius: 0;
+    border: 2px solid var(--primary-col);
+}
+form button[type="submit"]:hover {
+    background-color: var(--primary-col);
+    color: var(--surface-col) !important;
+    border: 2px solid var(--primary-col);
+}
+.btn-secondary {
+    padding: 0;
+    background-color: var(--background-col);
+    border-radius: 0;
+    border: 2px solid var(--primary-col);
+}
+.btn-secondary:hover {
+    background-color: var(--primary-col);
+    border: 2px solid var(--primary-col);
+    color: #1F2833 !important;
+}
+.btn-secondary a {
+    display: block;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    padding: 6px 10px;
+    margin: 0;
+}
+.btn-secondary a:hover {
+    background: transparent !important;
+}

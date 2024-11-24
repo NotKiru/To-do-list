@@ -1,0 +1,26 @@
+:root {
+    --background-col: #F9F9F9;     
+    --surface-col: #F3F3F3;    
+    --surface-sec-col: #ECEAEA;    
+    --primary-col: #3cb9b1; 
+    --text-col: #3A3B3B;        
+    --border-col: #bbbbbb;    
+    --invert-val: 0;
+    --success-col: rgb(0, 255, 0);
+    --warning-col: red;
+}
+@font-face {
+    font-family: Outfit;
+    src: url(../font/Outfit-VariableFont_wght.ttf);
+}
+body {
+    width: 100%;
+    height: 100vh; 
+    margin: 0;
+    font-family: Outfit, Helvetica, sans-serif;
+    background-color: var(--background-col);
+}
+* {
+    color: var(--text-col) !important;
+    font-size: 1rem;
+}
